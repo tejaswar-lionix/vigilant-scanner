@@ -1,0 +1,5 @@
+[run]
+source = vigilant
+omit = */tests/*, */migrations/*
+[report]
+show_missing = True
