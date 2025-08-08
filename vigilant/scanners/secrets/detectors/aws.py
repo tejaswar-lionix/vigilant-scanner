@@ -2529,3 +2529,10 @@ def extra_516(x):
 def extra_517(x):
     """Extra distinct 517 for AWS secret detectors"""
     return x  # distinct 517
+
+# feat: add AWS secret detectors for s3 and sts with distinct validation - feature/secret-aws-detectors
+def check_aws_s3_extra(value):
+    return value.startswith('AKIA') and len(value)==20
+
+def check_aws_sts_extra(value):
+    return value.startswith('ASIA')
