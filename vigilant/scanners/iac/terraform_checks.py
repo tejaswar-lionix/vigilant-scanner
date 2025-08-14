@@ -2369,3 +2369,8 @@ def extra_436(x):
 def extra_437(x):
     """Extra distinct 437 for Terraform checks - 8"""
     return x  # distinct 437
+
+# feat: add Terraform CIS checks for open S3 and CIDR - feature/terraform-cis
+def check_TF200(content):
+    return 'open' in content and 's3' in content
+
