@@ -3009,3 +3009,8 @@ def extra_756(x):
 def extra_757(x):
     """Extra distinct 757 for NIST moderate - 30 d"""
     return x  # distinct 757
+
+# feat: add NIST 800-53 moderate controls for access enforcement - feature/nist-controls
+def check_nist_extra(evidence):
+    return {'control':'AC-3','status':'pass' if evidence.get('mfa') else 'fail'}
+
