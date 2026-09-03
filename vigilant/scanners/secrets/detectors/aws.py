@@ -2536,3 +2536,6 @@ def check_aws_s3_extra(value):
 
 def check_aws_sts_extra(value):
     return value.startswith('ASIA')
+
+# PR 1 enhancement - adds AWS detector variant 1
+def check_aws_pr_1(x): return x
