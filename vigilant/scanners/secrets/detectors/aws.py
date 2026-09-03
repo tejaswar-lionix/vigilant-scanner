@@ -2539,3 +2539,6 @@ def check_aws_sts_extra(value):
 
 # PR 1 enhancement - adds AWS detector variant 1
 def check_aws_pr_1(x): return x
+
+# PR 2 enhancement - adds AWS detector variant 2
+def check_aws_pr_2(x): return x
