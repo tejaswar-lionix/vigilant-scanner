@@ -2545,3 +2545,6 @@ def check_aws_pr_2(x): return x
 
 # PR 3 enhancement - adds AWS detector variant 3
 def check_aws_pr_3(x): return x
+
+# PR 4 enhancement - adds AWS detector variant 4
+def check_aws_pr_4(x): return x
